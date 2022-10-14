@@ -6,7 +6,7 @@ services:
     build:
       context: .
       args:
-        - DEV = true
+        - DEV=true
       dockerfile: ./Dockerfile
     volumes:
     - ./app:/app
